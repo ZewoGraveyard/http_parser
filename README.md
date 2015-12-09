@@ -9,12 +9,27 @@ http_parser
 
 ## Installation
 
+### Homebrew 
 ```bash
-$ git clone https://github.com/Zewo/http_parser.git
-$ cd http_parser
+$ brew tap zewo/tap
+$ brew install http_parser
+```
+
+### Ubuntu/Debian
+```bash
+$ git clone https://github.com/Zewo/http_parser.git && cd http_parser
 $ make
+$ make package
 $ dpkg -i http_parser.deb
 ```
+
+### Source
+```bash
+$ git clone https://github.com/Zewo/http_parser.git && cd http_parser
+$ make
+$ (sudo) make install
+```
+
 
 ## Community
 
