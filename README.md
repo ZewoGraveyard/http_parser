@@ -5,7 +5,7 @@ http_parser
 [![License MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](https://tldrlegal.com/license/mit-license)
 [![Slack Status](https://zewo-slackin.herokuapp.com/badge.svg)](https://zewo-slackin.herokuapp.com)
 
-**http_parser** is an HTTP parser.
+**http_parser** is an HTTP parser. It is a fork/source-dump of [node.js's http-parser](https://github.com/nodejs/http-parser).
 
 ## Installation
 
